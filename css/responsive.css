@@ -9,7 +9,12 @@
     padding: 5px 10px;
     font-size: 12px;
     border-radius: 5px;
+    color: #FFF;
+    background: #6A4DF4;
   }
+
+  
+
 
   nav .navbar-nav .nav-item .active {
     margin-left: 7px;
