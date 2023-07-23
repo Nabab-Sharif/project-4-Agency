@@ -42,7 +42,6 @@ p {
 
 .title p {
   color: #737373;
-  text-align: center;
   font-family: Inter;
   font-size: 16px;
   font-style: normal;
@@ -131,7 +130,7 @@ nav .navbar-nav .nav-item .active {
 }
 
 #banner_part .banner_slide .slide2 {
-  background: url(../images/banner9.jpg);
+  background: url(../images/banner6.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -646,6 +645,7 @@ nav .navbar-nav .nav-item .active {
   margin-top: 30px;
 
 }
+
 /* form section style end  here */
 
 
@@ -659,7 +659,7 @@ footer {
   background: #FFF;
 }
 
-footer  p {
+footer p {
   color: #7B7B7B;
   font-family: Inter;
   font-size: 16px;
@@ -707,6 +707,7 @@ footer .copy_part {
   line-height: 26px;
   text-align: center;
   padding: 33px 0;
-  border-top: 1px solid #E8E8E8;;
+  border-top: 1px solid #E8E8E8;
+  ;
   width: 100%;
 }

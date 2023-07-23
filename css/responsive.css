@@ -1,0 +1,866 @@
+/* for x-small devices */
+@media (min-width: 320px) and (max-width: 575.98px) {
+
+  nav {
+    top: 5px;
+  }
+
+  .navbar form .btn {
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 5px;
+  }
+
+  nav .navbar-nav .nav-item .active {
+    margin-left: 7px;
+
+  }
+
+  .navbar button {
+    background: rgba(255, 255, 255, 0.5);
+
+  }
+
+
+  #banner_part .container p {
+    font-size: 14px;
+    width: 283px;
+  }
+
+  #banner_part .container h1 {
+    font-size: 21px;
+    width: 270px;
+  }
+
+  #success_part .text {
+    padding-left: 27px;
+  }
+
+  #success_part .text h3 {
+    font-size: 22px;
+  }
+
+
+  #success_part .number p {
+    font-size: 12px;
+  }
+
+  #success_part .number {
+    display: flex;
+    row-gap: 110px;
+    flex-direction: column;
+    margin-top: 110px;
+    padding-left: 0;
+
+  }
+
+  #success_part .number h2 {
+    font-size: 39px;
+  }
+
+
+  #service_part .title h2 {
+    font-size: 28px;
+  }
+
+  #service_part .title p {
+    width: 318px;
+    font-size: 13px;
+  }
+
+  #service_part .main {
+    padding: 60px 19px 20px;
+  }
+
+  #service_part .main p {
+    font-size: 11px;
+  }
+
+  #work_part .title h2 {
+    font-size: 37px;
+  }
+
+  #work_part .title p {
+    width: 329px;
+    margin: 0 auto;
+    font-size: 13px;
+  }
+
+
+  #agenc_part .title h2 {
+    width: 320px;
+    font-size: 30px;
+  }
+
+  #agenc_part .title p {
+    width: 320px;
+    font-size: 13px;
+  }
+
+
+  #agenc_part .main {
+    text-align: center;
+  }
+
+  #agenc_part .main p {
+    width: 308px;
+    font-size: 13px;
+    margin: 0 auto;
+  }
+
+
+  #clientReview_part .title p {
+    width: 320px;
+    font-size: 13px;
+  }
+
+
+  #clientReview_part .title h2 {
+    font-size: 28px;
+  }
+
+
+  #form_part .text h3 {
+    font-size: 26px;
+    width: 278px;
+
+  }
+
+  #form_part .text .paragraph_one {
+    width: 301px;
+    font-size: 13px;
+  }
+
+  #form_part .text .paragraph_two {
+    width: 301px;
+    font-size: 13px;
+  }
+
+
+  #form_part .form form {
+    width: 298px;
+    padding: 38px 8px;
+    margin-top: 50px;
+  }
+
+  #form_part .form form h4 {
+    font-size: 26px;
+  }
+
+
+  #form_part .form form input {
+
+    font-size: 16px;
+    padding: 9px 13px;
+    background: #FFF;
+  }
+
+  footer .footerMenu {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 15px;
+  }
+
+  footer .footerMenu ul h4 {
+    margin-bottom: 10px;
+    margin-top: 45px;
+  }
+
+  footer .col-lg-4 {
+    text-align: center;
+
+  }
+
+  footer p {
+    font-size: 13px;
+    width: 300px;
+    text-align: justify;
+    margin: 40px auto 14px;
+  }
+
+
+
+}
+
+
+
+
+/* for small devices */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  nav {
+    top: 5px;
+  }
+
+  .navbar form .btn {
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 5px;
+    color: #FFF;
+    background: #6A4DF4;
+  }
+
+  nav .navbar-nav .nav-item .active {
+    margin-left: 7px;
+
+  }
+
+  .navbar button {
+    background: rgba(255, 255, 255, 0.5);
+
+  }
+
+
+
+  /* banner part responsive start here */
+  #banner_part .container h1 {
+    font-size: 32px;
+    width: 402px;
+  }
+
+  #banner_part .container p {
+    font-size: 14px;
+    width: 519px;
+  }
+
+  /* banner part responsive end here */
+
+
+
+  /* success part responsive start here */
+  #success_part .text {
+    padding-left: 27px;
+  }
+
+  #success_part .text h3 {
+    font-size: 36px;
+  }
+
+  #success_part .number p {
+    font-size: 12px;
+  }
+
+  #success_part .number {
+    display: flex;
+    row-gap: 110px;
+    flex-direction: column;
+    margin-top: 110px;
+    padding-left: 0;
+
+  }
+
+  #success_part .number h2 {
+    font-size: 39px;
+  }
+
+  /* success part responsive end here */
+
+
+
+  /* service part responsive start here */
+  #service_part .title h2 {
+    font-size: 28px;
+  }
+
+  #service_part .title p {
+    width: 534px;
+    font-size: 14px;
+  }
+
+  #service_part .main {
+    padding: 60px 19px 20px;
+  }
+
+  #service_part .main p {
+    font-size: 11px;
+  }
+
+  /* service part responsive start end */
+
+
+
+  /* work part responsive start here */
+  #work_part .title h2 {
+    font-size: 37px;
+  }
+
+  #work_part .title p {
+    width: 534px;
+    margin: 0 auto;
+    font-size: 14px;
+  }
+
+  /* work part responsive start here */
+
+
+
+
+  /* agency part responsive start here */
+  #agenc_part .title h2 {
+    width: 320px;
+    font-size: 30px;
+  }
+
+  #agenc_part .title p {
+    width: 538px;
+    font-size: 14px;
+  }
+
+  #agenc_part .main {
+    text-align: center;
+  }
+
+  #agenc_part .main p {
+    width: 308px;
+    font-size: 13px;
+    margin: 0 auto;
+  }
+
+  /* agency part responsive end here */
+
+
+
+  /* client review part responsive start here */
+  #clientReview_part .title p {
+    width: 534px;
+    font-size: 14px;
+  }
+
+  #clientReview_part .title h2 {
+    font-size: 28px;
+  }
+
+  /* client review part responsive end here */
+
+
+
+
+  /* form part responsive start here */
+  #form_part .text h3 {
+    font-size: 26px;
+    width: 278px;
+  }
+
+  #form_part .text .paragraph_one {
+    width: 498px;
+    font-size: 14px;
+  }
+
+  #form_part .text .paragraph_two {
+    width: 498px;
+    font-size: 14px;
+  }
+
+
+  #form_part .form form {
+    width: 523px;
+    padding: 47px 57px;
+    margin-top: 50px;
+  }
+
+  #form_part .form form h4 {
+    font-size: 26px;
+  }
+
+
+  #form_part .form form input {
+
+    font-size: 16px;
+    padding: 9px 13px;
+    background: #FFF;
+  }
+
+  /* form part responsive end here */
+
+
+
+  /* footer part responsive start here */
+  footer .footerMenu {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 15px;
+  }
+
+  footer .footerMenu ul h4 {
+    margin-bottom: 10px;
+    margin-top: 45px;
+  }
+
+  footer .col-lg-4 {
+    text-align: center;
+
+  }
+
+  footer p {
+    font-size: 14px;
+    width: 497px;
+    margin: 40px auto 14px;
+  }
+
+  footer .footerMenu ul li a {
+    line-height: 26px;
+  }
+
+  /* footer part responsive end here */
+
+
+
+
+
+}
+
+
+
+
+/* for medium devices*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+  nav {
+    top: 5px;
+  }
+
+  .navbar form .btn {
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 5px;
+    color: #FFF;
+    background: #6A4DF4;
+  }
+
+  nav .navbar-nav .nav-item .active {
+    margin-left: 7px;
+
+  }
+
+  .navbar button {
+    background: rgba(255, 255, 255, 0.5);
+
+  }
+
+
+
+  /* banner part responsive start here */
+  #banner_part .container h1 {
+    font-size: 32px;
+    width: 402px;
+  }
+
+  #banner_part .container p {
+    font-size: 14px;
+    width: 519px;
+  }
+
+  /* banner part responsive end here */
+
+
+
+  /* success part responsive start here */
+  #success_part .text {
+    padding-left: 27px;
+  }
+
+  #success_part .text h3 {
+    font-size: 34px;
+  }
+
+  #success_part .number p {
+    font-size: 12px;
+  }
+
+  #success_part .number {
+    display: flex;
+    column-gap: 110px;
+    margin-top: 110px;
+    padding-left: 40px;
+    padding-bottom: 70px;
+  }
+
+  #success_part .number h2 {
+    font-size: 39px;
+  }
+
+  /* success part responsive end here */
+
+
+
+  /* service part responsive start here */
+  #service_part {
+    padding-bottom: 100px;
+  }
+
+  #service_part .title h2 {
+    font-size: 28px;
+  }
+
+  #service_part .title p {
+    width: 534px;
+    font-size: 14px;
+  }
+
+  #service_part .main {
+    padding: 60px 19px 20px;
+  }
+
+  #service_part .main p {
+    font-size: 11px;
+  }
+
+  /* service part responsive start end */
+
+
+
+  /* work part responsive start here */
+  #work_part .title h2 {
+    font-size: 37px;
+  }
+
+  #work_part .title p {
+    width: 534px;
+    margin: 0 auto;
+    font-size: 14px;
+  }
+
+  #work_part .text {
+    padding: 30px 39px;
+  }
+
+  /* work part responsive start here */
+
+
+
+
+  /* agency part responsive start here */
+  #agenc_part .title h2 {
+    width: 476px;
+    font-size: 31px;
+  }
+
+  #agenc_part .title p {
+    width: 538px;
+    font-size: 14px;
+  }
+
+  #agenc_part .main {
+    text-align: center;
+  }
+
+  #agenc_part .main p {
+    width: 308px;
+    font-size: 13px;
+    margin: 0 auto;
+  }
+
+  /* agency part responsive end here */
+
+
+
+  /* client review part responsive start here */
+  #clientReview_part .title p {
+    width: 534px;
+    font-size: 14px;
+  }
+
+  #clientReview_part .title h2 {
+    font-size: 28px;
+  }
+
+  /* client review part responsive end here */
+
+
+
+
+  /* form part responsive start here */
+  #form_part .text h3 {
+    font-size: 25px;
+    width: 447px;
+  }
+
+  #form_part .text .paragraph_one {
+    width: 592px;
+    font-size: 14px;
+  }
+
+  #form_part .text .paragraph_two {
+    width: 592px;
+    font-size: 14px;
+  }
+
+
+
+  #form_part .form form {
+    width: 687px;
+    padding: 78px 79px;
+    margin-top: 82px;
+  }
+
+
+  #form_part .form form h4 {
+    font-size: 26px;
+  }
+
+
+  #form_part .form form input {
+
+    font-size: 16px;
+    padding: 9px 13px;
+    background: #FFF;
+  }
+
+  /* form part responsive end here */
+
+
+
+  /* footer part responsive start here */
+  footer .footerMenu {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 15px;
+  }
+
+  footer .footerMenu ul h4 {
+    margin-bottom: 10px;
+    margin-top: 45px;
+  }
+
+  footer .col-lg-4 {
+    text-align: center;
+
+  }
+
+  footer p {
+    font-size: 14px;
+    width: 623px;
+    margin: 40px auto 14px;
+  }
+
+  footer .footerMenu ul li a {
+    line-height: 26px;
+  }
+
+
+  footer .footerMenu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 0;
+  }
+
+  footer .footerMenu .about {
+    width: 50%;
+  }
+
+  footer .footerMenu .company {
+    width: 50%;
+  }
+
+
+  footer .footerMenu .support {
+    width: 50%;
+  }
+
+  footer .footerMenu .address {
+    width: 50%;
+  }
+
+
+
+
+  /* footer part responsive end here */
+
+
+
+
+
+}
+
+
+
+
+
+/* for large devices */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+  .navbar form .btn {
+    font-size: 15px;
+    padding: 8px 30px;
+  }
+
+
+
+  /* success part responsive start here */
+
+  #success_part .text h3 {
+    font-size: 23px;
+  }
+
+  #success_part .number p {
+    font-size: 10px;
+  }
+
+  #success_part .number h2 {
+    font-size: 34px;
+  }
+
+  /* success part responsive end here */
+
+
+
+  /* service part responsive start here */
+  #service_part {
+    padding-bottom: 100px;
+  }
+
+
+  #service_part .main {
+    padding: 60px 19px 20px;
+  }
+
+  #service_part .main p {
+    font-size: 11px;
+  }
+
+  /* service part responsive start end */
+
+
+
+  /* work part responsive start here */
+  #work_part {
+    padding: 150px 0 100px;
+  }
+
+  #work_part .title h2 {
+    font-size: 37px;
+  }
+
+  #work_part .text {
+    padding: 33px 29px;
+  }
+
+
+  #work_part .text p {
+    font-size: 11px;
+    line-height: 21px;
+  }
+
+  #work_part .text h3 {
+    font-size: 16px;
+  }
+
+  /* work part responsive start here */
+
+
+
+
+  /* agency part responsive start here */
+  #agenc_part .main p {
+    width: 301px;
+    font-size: 14px;
+  }
+
+  #agenc_part .row {
+    row-gap: 40px;
+  }
+
+  #agenc_part .title {
+    margin-bottom: 78px;
+  }
+
+  /* agency part responsive end here */
+
+
+
+  /* client review part responsive start here */
+  #clientReview_part .title p {
+    width: 534px;
+    font-size: 14px;
+  }
+
+  #clientReview_part .title h2 {
+    font-size: 28px;
+  }
+
+  /* client review part responsive end here */
+
+
+
+
+  /* form part responsive start here */
+  #form_part .text h3 {
+    font-size: 25px;
+    width: 447px;
+  }
+
+  #form_part .text .paragraph_one {
+    width: 460px;
+    font-size: 14px;
+  }
+
+  #form_part .text .paragraph_two {
+    width: 460px;
+    font-size: 14px;
+  }
+
+
+  #form_part .form form {
+    width: 434px;
+    padding: 49px 37px;
+  }
+
+  /* form part responsive end here */
+
+
+
+
+  /* footer part responsive start here */
+  footer .footerMenu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 0;
+    text-align: center;
+  }
+
+  footer .footerMenu ul h4 {
+    margin-bottom: 10px;
+
+  }
+
+  footer p {
+    font-size: 14px;
+    width: 330px;
+    text-align: justify;
+  }
+
+  footer .footerMenu ul li a {
+    line-height: 26px;
+  }
+
+  footer .footerMenu ul {
+    margin-bottom: 50px;
+  }
+
+
+  footer .footerMenu .about {
+    width: 50%;
+
+  }
+
+  footer .footerMenu .company {
+    width: 50%;
+  }
+
+
+  footer .footerMenu .support {
+    width: 50%;
+  }
+
+  footer .footerMenu .address {
+    width: 50%;
+  }
+
+  /* footer part responsive end here */
+
+
+
+}
