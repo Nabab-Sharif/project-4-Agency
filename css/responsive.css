@@ -8,12 +8,9 @@
   .navbar form .btn {
     padding: 5px 10px;
     font-size: 12px;
-    border-radius: 5px;
     color: #FFF;
     background: #6A4DF4;
   }
-
-  
 
 
   nav .navbar-nav .nav-item .active {
@@ -24,35 +21,40 @@
   .navbar button {
     background: rgba(255, 255, 255, 0.5);
 
+
   }
 
 
-  #banner_part .container p {
-    font-size: 14px;
-    width: 283px;
-  }
 
+  /* banner part responsive start here */
   #banner_part .container h1 {
     font-size: 21px;
-    width: 270px;
+    width: auto;
   }
 
-  #success_part .text {
-    padding-left: 27px;
+  #banner_part .container p {
+    font-size: 13px;
+    width: auto;
+  }
+
+  /* banner part responsive end here */
+
+
+
+
+  /* success part responsive start here */
+  #success_part .text p {
+    font-size: 18px;
   }
 
   #success_part .text h3 {
-    font-size: 22px;
+    font-size: 20px;
   }
 
-
-  #success_part .number p {
-    font-size: 12px;
-  }
 
   #success_part .number {
     display: flex;
-    row-gap: 110px;
+    row-gap: 100px;
     flex-direction: column;
     margin-top: 110px;
     padding-left: 0;
@@ -60,16 +62,29 @@
   }
 
   #success_part .number h2 {
-    font-size: 39px;
+    font-size: 33px;
   }
 
+  #success_part .number p {
+    font-size: 12px;
+  }
+
+  /* success part responsive end here */
+
+
+
+
+  /* service part responsive start here */
+  #service_part {
+    padding-top: 64px;
+  }
 
   #service_part .title h2 {
-    font-size: 28px;
+    font-size: 24px;
   }
 
   #service_part .title p {
-    width: 318px;
+    width: auto;
     font-size: 13px;
   }
 
@@ -81,24 +96,47 @@
     font-size: 11px;
   }
 
+  /* service part responsive end here */
+
+
+
+
+  /* work part responsive start here */
+  #work_part {
+    padding: 79px 0;
+  }
+
   #work_part .title h2 {
-    font-size: 37px;
+    font-size: 32px;
   }
 
   #work_part .title p {
-    width: 329px;
-    margin: 0 auto;
+    width: auto;
     font-size: 13px;
   }
 
+  /* work part responsive end here */
+
+
+
+
+  /* agency part responsive start here */
+
+  #agenc_part {
+    padding: 92px 0 115px;
+  }
+
+  #agenc_part .title {
+    margin-bottom: 82px;
+  }
 
   #agenc_part .title h2 {
-    width: 320px;
-    font-size: 30px;
+    width: auto;
+    font-size: 29px;
   }
 
   #agenc_part .title p {
-    width: 320px;
+    width: auto;
     font-size: 13px;
   }
 
@@ -108,15 +146,23 @@
   }
 
   #agenc_part .main p {
-    width: 308px;
+    width: auto;
     font-size: 13px;
-    margin: 0 auto;
   }
 
+  /* agency part responsive end here */
+
+
+
+  /* client review part responsive start here */
+  #clientReview_part {
+    padding-bottom: 90px;
+  }
 
   #clientReview_part .title p {
-    width: 320px;
+    width: auto;
     font-size: 13px;
+    padding-bottom: 41px;
   }
 
 
@@ -124,47 +170,95 @@
     font-size: 28px;
   }
 
+  #clientReview_part .slide {
+    padding: 27px 40px;
+
+  }
+
+  #clientReview_part .slide .slide_para {
+    font-size: 11px;
+  }
+
+  #clientReview_part .slide .icon i {
+    font-size: 11px;
+  }
+
+  #clientReview_part .slide .client .text h5 {
+    font-size: 14px;
+  }
+
+  #clientReview_part .slide .client .text .client_profession {
+    font-size: 11px;
+  }
+
+  /* client review part responsive end here */
+
+
+
+
+
+  /* form part responsive start here */
+  #form_part {
+    padding: 57px 0;
+  }
 
   #form_part .text h3 {
-    font-size: 26px;
-    width: 278px;
+    font-size: 23px;
+    width: auto;
 
   }
 
   #form_part .text .paragraph_one {
-    width: 301px;
-    font-size: 13px;
+    width: auto;
+    font-size: 12px;
   }
 
   #form_part .text .paragraph_two {
-    width: 301px;
-    font-size: 13px;
+    width: auto;
+    font-size: 12px;
   }
 
 
   #form_part .form form {
-    width: 298px;
-    padding: 38px 8px;
+    width: auto;
+    padding: 44px 34px;
     margin-top: 50px;
   }
 
+
   #form_part .form form h4 {
-    font-size: 26px;
+    font-size: 19px;
   }
 
+  #form_part .form form label {
+    font-size: 14px;
+  }
 
   #form_part .form form input {
-
-    font-size: 16px;
+    font-size: 14px;
     padding: 9px 13px;
-    background: #FFF;
+
+  }
+
+  #form_part .form form button {
+    padding: 12px 0;
+    font-size: 16px;
+  }
+
+  /* form part responsive end here */
+
+
+
+  /* footer part responsive start here */
+  footer {
+    padding-top: 52px;
   }
 
   footer .footerMenu {
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin-top: 15px;
+
   }
 
   footer .footerMenu ul h4 {
@@ -172,18 +266,14 @@
     margin-top: 45px;
   }
 
-  footer .col-lg-4 {
-    text-align: center;
-
-  }
-
   footer p {
     font-size: 13px;
-    width: 300px;
+    width: auto;
     text-align: justify;
     margin: 40px auto 14px;
   }
 
+  /* footer part responsive end here */
 
 
 }
@@ -193,6 +283,7 @@
 
 /* for small devices */
 @media (min-width: 576px) and (max-width: 767.98px) {
+
   nav {
     top: 5px;
   }
@@ -219,13 +310,13 @@
 
   /* banner part responsive start here */
   #banner_part .container h1 {
-    font-size: 32px;
-    width: 402px;
+    font-size: 35px;
+    width: auto;
   }
 
   #banner_part .container p {
-    font-size: 14px;
-    width: 519px;
+    font-size: 13px;
+    width: auto;
   }
 
   /* banner part responsive end here */
@@ -233,13 +324,26 @@
 
 
   /* success part responsive start here */
+  #success_part {
+    padding-top: 54px;
+  }
+
+  #success_part .container {
+    padding: 54px 38px;
+  }
+
   #success_part .text {
-    padding-left: 27px;
+    padding-left: 0;
   }
 
   #success_part .text h3 {
-    font-size: 36px;
+    font-size: 38px;
   }
+
+  #success_part .text p {
+    font-size: 22px;
+  }
+
 
   #success_part .number p {
     font-size: 12px;
@@ -247,9 +351,9 @@
 
   #success_part .number {
     display: flex;
-    row-gap: 110px;
+    row-gap: 80px;
     flex-direction: column;
-    margin-top: 110px;
+    margin-top: 80px;
     padding-left: 0;
 
   }
@@ -263,17 +367,21 @@
 
 
   /* service part responsive start here */
+  #service_part {
+    padding: 57px 0;
+  }
+
   #service_part .title h2 {
     font-size: 28px;
   }
 
   #service_part .title p {
-    width: 534px;
+    width: auto;
     font-size: 14px;
   }
 
   #service_part .main {
-    padding: 60px 19px 20px;
+    padding: 36px 20px 6px;
   }
 
   #service_part .main p {
@@ -285,14 +393,17 @@
 
 
   /* work part responsive start here */
+  #work_part {
+    padding: 57px 0;
+  }
+
   #work_part .title h2 {
     font-size: 37px;
   }
 
   #work_part .title p {
-    width: 534px;
-    margin: 0 auto;
-    font-size: 14px;
+    width: auto;
+    font-size: 13px;
   }
 
   /* work part responsive start here */
@@ -301,14 +412,22 @@
 
 
   /* agency part responsive start here */
+  #agenc_part {
+    padding: 65px 0 85px;
+  }
+
+  #agenc_part .title {
+    margin-bottom: 73px;
+  }
+
   #agenc_part .title h2 {
-    width: 320px;
-    font-size: 30px;
+    width: auto;
+    font-size: 48px;
   }
 
   #agenc_part .title p {
-    width: 538px;
-    font-size: 14px;
+    width: auto;
+    font-size: 13px;
   }
 
   #agenc_part .main {
@@ -316,9 +435,8 @@
   }
 
   #agenc_part .main p {
-    width: 308px;
+    width: auto;
     font-size: 13px;
-    margin: 0 auto;
   }
 
   /* agency part responsive end here */
@@ -326,13 +444,18 @@
 
 
   /* client review part responsive start here */
-  #clientReview_part .title p {
-    width: 534px;
-    font-size: 14px;
+  #clientReview_part {
+    padding-bottom: 78px;
   }
 
   #clientReview_part .title h2 {
     font-size: 28px;
+  }
+
+  #clientReview_part .title p {
+    width: auto;
+    font-size: 13px;
+    padding-bottom: 48px;
   }
 
   /* client review part responsive end here */
@@ -341,24 +464,28 @@
 
 
   /* form part responsive start here */
+  #form_part {
+    padding: 42px 0;
+  }
+
   #form_part .text h3 {
-    font-size: 26px;
-    width: 278px;
+    font-size: 31px;
+    width: auto;
   }
 
   #form_part .text .paragraph_one {
-    width: 498px;
-    font-size: 14px;
+    width: auto;
+    font-size: 13px;
   }
 
   #form_part .text .paragraph_two {
-    width: 498px;
-    font-size: 14px;
+    width: auto;
+    font-size: 13px;
   }
 
 
   #form_part .form form {
-    width: 523px;
+    width: auto;
     padding: 47px 57px;
     margin-top: 50px;
   }
@@ -369,10 +496,8 @@
 
 
   #form_part .form form input {
-
     font-size: 16px;
     padding: 9px 13px;
-    background: #FFF;
   }
 
   /* form part responsive end here */
@@ -380,6 +505,16 @@
 
 
   /* footer part responsive start here */
+  footer {
+    padding-top: 63px;
+  }
+
+  footer p {
+    font-size: 13px;
+    width: auto;
+    margin: 26px auto 4px;
+  }
+
   footer .footerMenu {
     display: flex;
     flex-direction: column;
@@ -388,20 +523,10 @@
   }
 
   footer .footerMenu ul h4 {
-    margin-bottom: 10px;
-    margin-top: 45px;
+    margin: 45px 0 10px;
   }
 
-  footer .col-lg-4 {
-    text-align: center;
 
-  }
-
-  footer p {
-    font-size: 14px;
-    width: 497px;
-    margin: 40px auto 14px;
-  }
 
   footer .footerMenu ul li a {
     line-height: 26px;
@@ -424,6 +549,7 @@
     top: 5px;
   }
 
+
   .navbar form .btn {
     padding: 5px 10px;
     font-size: 12px;
@@ -446,13 +572,13 @@
 
   /* banner part responsive start here */
   #banner_part .container h1 {
-    font-size: 32px;
-    width: 402px;
+    font-size: 44px;
+    width: auto;
   }
 
   #banner_part .container p {
-    font-size: 14px;
-    width: 519px;
+    font-size: 13px;
+    width: auto;
   }
 
   /* banner part responsive end here */
@@ -460,8 +586,21 @@
 
 
   /* success part responsive start here */
+  #success_part {
+    padding-top: 47px;
+  }
+
+  #success_part .container {
+    padding: 50px 38px;
+  }
+
+
   #success_part .text {
-    padding-left: 27px;
+    padding-left: 0;
+  }
+
+  #success_part .text p {
+    font-size: 22px;
   }
 
   #success_part .text h3 {
@@ -475,9 +614,7 @@
   #success_part .number {
     display: flex;
     column-gap: 110px;
-    margin-top: 110px;
-    padding-left: 40px;
-    padding-bottom: 70px;
+    padding: 70px 0;
   }
 
   #success_part .number h2 {
@@ -490,7 +627,7 @@
 
   /* service part responsive start here */
   #service_part {
-    padding-bottom: 100px;
+    padding: 64px 0 100px;
   }
 
   #service_part .title h2 {
@@ -498,8 +635,8 @@
   }
 
   #service_part .title p {
-    width: 534px;
-    font-size: 14px;
+    width: auto;
+    font-size: 13px;
   }
 
   #service_part .main {
@@ -515,14 +652,17 @@
 
 
   /* work part responsive start here */
+  #work_part {
+    padding: 57px 0;
+  }
+
   #work_part .title h2 {
     font-size: 37px;
   }
 
   #work_part .title p {
-    width: 534px;
-    margin: 0 auto;
-    font-size: 14px;
+    width: auto;
+    font-size: 13px;
   }
 
   #work_part .text {
@@ -535,14 +675,22 @@
 
 
   /* agency part responsive start here */
+  #agenc_part {
+    padding: 66px 0 92px;
+  }
+
+  #agenc_part .title {
+    margin-bottom: 69px;
+  }
+
   #agenc_part .title h2 {
-    width: 476px;
+    width: auto;
     font-size: 31px;
   }
 
   #agenc_part .title p {
-    width: 538px;
-    font-size: 14px;
+    width: auto;
+    font-size: 13px;
   }
 
   #agenc_part .main {
@@ -550,9 +698,8 @@
   }
 
   #agenc_part .main p {
-    width: 308px;
+    width: auto;
     font-size: 13px;
-    margin: 0 auto;
   }
 
   /* agency part responsive end here */
@@ -560,9 +707,13 @@
 
 
   /* client review part responsive start here */
+  #clientReview_part {
+    padding-bottom: 90px;
+  }
+
   #clientReview_part .title p {
-    width: 534px;
-    font-size: 14px;
+    width: auto;
+    font-size: 13px;
   }
 
   #clientReview_part .title h2 {
@@ -575,25 +726,29 @@
 
 
   /* form part responsive start here */
+  #form_part {
+    padding: 52px 0;
+  }
+
   #form_part .text h3 {
     font-size: 25px;
-    width: 447px;
+    width: auto;
   }
 
   #form_part .text .paragraph_one {
-    width: 592px;
-    font-size: 14px;
+    width: auto;
+    font-size: 13px;
   }
 
   #form_part .text .paragraph_two {
-    width: 592px;
-    font-size: 14px;
+    width: auto;
+    font-size: 13px;
   }
 
 
 
   #form_part .form form {
-    width: 687px;
+    width: auto;
     padding: 78px 79px;
     margin-top: 82px;
   }
@@ -605,10 +760,8 @@
 
 
   #form_part .form form input {
-
     font-size: 16px;
     padding: 9px 13px;
-    background: #FFF;
   }
 
   /* form part responsive end here */
@@ -624,18 +777,12 @@
   }
 
   footer .footerMenu ul h4 {
-    margin-bottom: 10px;
-    margin-top: 45px;
-  }
-
-  footer .col-lg-4 {
-    text-align: center;
-
+    margin: 45px 0 10px;
   }
 
   footer p {
-    font-size: 14px;
-    width: 623px;
+    font-size: 13px;
+    width: auto;
     margin: 40px auto 14px;
   }
 
@@ -669,13 +816,7 @@
   }
 
 
-
-
   /* footer part responsive end here */
-
-
-
-
 
 }
 
@@ -690,6 +831,22 @@
     font-size: 15px;
     padding: 8px 30px;
   }
+
+  /* banner part responsive start here */
+  #banner_part .container p {
+    font-size: 20px;
+    width: auto;
+  }
+
+  #banner_part .container h1 {
+
+    font-size: 75px;
+    width: auto;
+  }
+
+  /* banner part responsive end here */
+
+
 
 
 
@@ -716,6 +873,14 @@
     padding-bottom: 100px;
   }
 
+  #service_part .title h2 {
+    font-size: 37px;
+  }
+
+  #service_part .title p {
+    width: auto;
+    font-size: 14px;
+  }
 
   #service_part .main {
     padding: 60px 19px 20px;
@@ -738,6 +903,11 @@
     font-size: 37px;
   }
 
+  #work_part .title p {
+    width: auto;
+    font-size: 14px;
+  }
+
   #work_part .text {
     padding: 33px 29px;
   }
@@ -758,8 +928,19 @@
 
 
   /* agency part responsive start here */
+
+  #agenc_part .title h2 {
+    width: auto;
+    font-size: 37px;
+  }
+
+  #agenc_part .title p {
+    width: auto;
+
+  }
+
   #agenc_part .main p {
-    width: 301px;
+    width: auto;
     font-size: 14px;
   }
 
@@ -767,22 +948,18 @@
     row-gap: 40px;
   }
 
-  #agenc_part .title {
-    margin-bottom: 78px;
-  }
-
   /* agency part responsive end here */
 
 
 
   /* client review part responsive start here */
-  #clientReview_part .title p {
-    width: 534px;
-    font-size: 14px;
+  #clientReview_part .title h2 {
+    font-size: 37px;
   }
 
-  #clientReview_part .title h2 {
-    font-size: 28px;
+  #clientReview_part .title p {
+    width: auto;
+    font-size: 14px;
   }
 
   /* client review part responsive end here */
@@ -793,22 +970,21 @@
   /* form part responsive start here */
   #form_part .text h3 {
     font-size: 25px;
-    width: 447px;
+    width: auto;
   }
 
   #form_part .text .paragraph_one {
-    width: 460px;
+    width: auto;
     font-size: 14px;
   }
 
   #form_part .text .paragraph_two {
-    width: 460px;
+    width: auto;
     font-size: 14px;
   }
 
-
   #form_part .form form {
-    width: 434px;
+    width: auto;
     padding: 49px 37px;
   }
 
@@ -823,7 +999,9 @@
     flex-direction: row;
     flex-wrap: wrap;
     column-gap: 0;
-    text-align: center;
+    justify-content: center;
+    align-items: center;
+
   }
 
   footer .footerMenu ul h4 {
@@ -833,7 +1011,7 @@
 
   footer p {
     font-size: 14px;
-    width: 330px;
+    width: auto;
     text-align: justify;
   }
 
@@ -847,21 +1025,21 @@
 
 
   footer .footerMenu .about {
-    width: 50%;
+    width: 40%;
 
   }
 
   footer .footerMenu .company {
-    width: 50%;
+    width: 40%;
   }
 
 
   footer .footerMenu .support {
-    width: 50%;
+    width: 40%;
   }
 
   footer .footerMenu .address {
-    width: 50%;
+    width: 40%;
   }
 
   /* footer part responsive end here */

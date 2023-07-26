@@ -427,11 +427,23 @@ nav .navbar-nav .nav-item .active {
 
 #agenc_part .main h3 {
   margin: 20px 0 10px;
+  color: #151515;
+  font-family: Inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
 }
 
 #agenc_part .main p {
   width: 344px;
-
+  color: var(--dark-03, #737373);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
 }
 
 #agenc_part .row {
