@@ -6,10 +6,12 @@
   }
 
   .navbar form .btn {
-    padding: 5px 10px;
-    font-size: 12px;
-    color: #FFF;
-    background: #6A4DF4;
+    padding: 6px 33px;
+    font-size: 17px;
+    margin-bottom: 5px;
+    background: #EED38E;
+    color: black;
+    border-radius: 0;
   }
 
 
@@ -18,23 +20,45 @@
 
   }
 
-  .navbar button {
-    background: rgba(255, 255, 255, 0.5);
-
-
+  .navbar-collapse {
+    background: #ACD61C;
+    border-radius: 30px;
+    box-shadow: 3px 2px 6px 10px #ADA49B;
   }
+
+
+  .navbar .navbar-toggler {
+    box-shadow: none;
+    border: 0;
+    color: white;
+  }
+
+  .navbar-nav {
+    text-align: center;
+  }
+
+  .navbar form {
+    justify-content: center;
+  }
+
 
 
 
   /* banner part responsive start here */
   #banner_part .container h1 {
-    font-size: 21px;
+    font-size: 22px;
     width: auto;
+
   }
 
   #banner_part .container p {
     font-size: 13px;
     width: auto;
+  }
+
+
+  .banner_slide ul {
+    bottom: 100px;
   }
 
   /* banner part responsive end here */
@@ -148,6 +172,14 @@
   #agenc_part .main p {
     width: auto;
     font-size: 13px;
+  }
+
+  #agenc_part .row .col-lg-8 {
+    order: 2;
+  }
+
+  #agenc_part .row .col-lg-4 {
+    order: 1;
   }
 
   /* agency part responsive end here */
@@ -532,10 +564,7 @@
     line-height: 26px;
   }
 
-  /* footer part responsive end here */
-
-
-
+  /* footer part responsive end here  */
 
 
 }
@@ -799,20 +828,21 @@
   }
 
   footer .footerMenu .about {
-    width: 50%;
+    width: 40%;
+
   }
 
   footer .footerMenu .company {
-    width: 50%;
+    width: 40%;
   }
 
 
   footer .footerMenu .support {
-    width: 50%;
+    width: 40%;
   }
 
   footer .footerMenu .address {
-    width: 50%;
+    width: 40%;
   }
 
 
