@@ -54,12 +54,41 @@
   #banner_part .container p {
     font-size: 13px;
     width: auto;
+    line-height: 21px;
+    margin: 27px 0;
   }
 
+
+  #banner_part .container .btn {
+    padding: 9px 19px;
+    font-size: 13px;
+    font-weight: 400;
+    border-radius: 0;
+  }
+
+
+  #banner_part .slide,
+  #banner_part .banner_slide .slide2,
+  #banner_part .banner_slide .slide3,
+  #banner_part .banner_slide .slide4 {
+    padding: 250px 0;
+  }
 
   .banner_slide ul {
-    bottom: 100px;
+    bottom: 32px;
   }
+
+  .banner_slide ul li button {
+    width: 20px;
+    height: 20px;
+  }
+
+  .banner_slide ul .slick-active button {
+    border: 2px solid rgb(250, 249, 249);
+  }
+
+
+
 
   /* banner part responsive end here */
 
@@ -67,23 +96,37 @@
 
 
   /* success part responsive start here */
+  #success_part {
+    padding-top: 50px;
+  }
+
+  #success_part .container {
+    border-radius: 10px;
+    padding: 28px 10px;
+  }
+
+  #success_part .text {
+    padding-left: 0;
+  }
+
   #success_part .text p {
     font-size: 18px;
   }
 
   #success_part .text h3 {
-    font-size: 20px;
+    font-size: 16px;
   }
 
 
   #success_part .number {
     display: flex;
-    row-gap: 100px;
+    row-gap: 52px;
     flex-direction: column;
-    margin-top: 110px;
+    margin-top: 39px;
     padding-left: 0;
 
   }
+
 
   #success_part .number h2 {
     font-size: 33px;
