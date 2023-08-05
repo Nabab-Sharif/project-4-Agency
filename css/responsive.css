@@ -21,9 +21,13 @@
   }
 
   .navbar-collapse {
-    background: #ACD61C;
-    border-radius: 30px;
-    margin-bottom: 15px;
+    background: url(../images/navPictures.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 2px;
+    padding-bottom: 28px;
+
 
   }
 
@@ -388,13 +392,16 @@
   }
 
 
-  .navbar-collapse {
-    background: #30363D;
-    border-radius: 5px;
-    margin-bottom: 15px;
-    padding-bottom: 15px;
-  }
 
+  .navbar-collapse {
+    background: url(../images/navPictures.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 2px;
+    padding-bottom: 28px;
+
+  }
 
 
   /* banner part responsive start here */
@@ -681,10 +688,12 @@
 
 
   .navbar-collapse {
-    background: #00B5A7;
-    border-radius: 5px;
-    margin-bottom: 15px;
-    padding-bottom: 15px;
+    background: url(../images/navPictures.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 2px;
+    padding-bottom: 28px;
   }
 
 
