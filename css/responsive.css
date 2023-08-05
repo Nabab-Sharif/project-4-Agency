@@ -23,7 +23,8 @@
   .navbar-collapse {
     background: #ACD61C;
     border-radius: 30px;
-    box-shadow: 3px 2px 6px 10px #ADA49B;
+    margin-bottom: 15px;
+
   }
 
 
@@ -86,9 +87,6 @@
   .banner_slide ul .slick-active button {
     border: 2px solid rgb(250, 249, 249);
   }
-
-
-
 
   /* banner part responsive end here */
 
@@ -358,12 +356,13 @@
     top: 5px;
   }
 
+
   .navbar form .btn {
-    padding: 5px 10px;
-    font-size: 12px;
+    padding: 15px 42px;
+    font-size: 20px;
     border-radius: 5px;
     color: #FFF;
-    background: #6A4DF4;
+    background: #FFA28B;
   }
 
   nav .navbar-nav .nav-item .active {
@@ -371,9 +370,29 @@
 
   }
 
-  .navbar button {
-    background: rgba(255, 255, 255, 0.5);
 
+  .navbar .navbar-toggler {
+    box-shadow: none;
+    border: 0;
+    color: white;
+  }
+
+
+
+  .navbar-nav {
+    text-align: center;
+  }
+
+  .navbar form {
+    justify-content: center;
+  }
+
+
+  .navbar-collapse {
+    background: #30363D;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
   }
 
 
@@ -385,8 +404,30 @@
   }
 
   #banner_part .container p {
-    font-size: 13px;
+    font-size: 17px;
     width: auto;
+  }
+
+
+
+  #banner_part .slide,
+  #banner_part .banner_slide .slide2,
+  #banner_part .banner_slide .slide3,
+  #banner_part .banner_slide .slide4 {
+    padding: 250px 0;
+  }
+
+  .banner_slide ul {
+    bottom: 32px;
+  }
+
+  .banner_slide ul li button {
+    width: 20px;
+    height: 20px;
+  }
+
+  .banner_slide ul .slick-active button {
+    border: 2px solid rgb(250, 249, 249);
   }
 
   /* banner part responsive end here */
@@ -616,13 +657,12 @@
     top: 5px;
   }
 
-
   .navbar form .btn {
-    padding: 5px 10px;
-    font-size: 12px;
+    padding: 15px 42px;
+    font-size: 20px;
     border-radius: 5px;
     color: #FFF;
-    background: #6A4DF4;
+    background: #FFA28B;
   }
 
   nav .navbar-nav .nav-item .active {
@@ -630,12 +670,29 @@
 
   }
 
-  .navbar button {
-    background: rgba(255, 255, 255, 0.5);
 
+  .navbar-nav {
+    text-align: center;
+  }
+
+  .navbar form {
+    justify-content: center;
   }
 
 
+  .navbar-collapse {
+    background: #00B5A7;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+  }
+
+
+  .navbar .navbar-toggler {
+    box-shadow: none;
+    border: 0;
+    color: white;
+  }
 
   /* banner part responsive start here */
   #banner_part .container h1 {
@@ -647,6 +704,27 @@
     font-size: 13px;
     width: auto;
   }
+
+  #banner_part .slide,
+  #banner_part .banner_slide .slide2,
+  #banner_part .banner_slide .slide3,
+  #banner_part .banner_slide .slide4 {
+    padding: 250px 0;
+  }
+
+  .banner_slide ul {
+    bottom: 32px;
+  }
+
+  .banner_slide ul li button {
+    width: 20px;
+    height: 20px;
+  }
+
+  .banner_slide ul .slick-active button {
+    border: 2px solid rgb(250, 249, 249);
+  }
+
 
   /* banner part responsive end here */
 
@@ -861,28 +939,10 @@
   footer .footerMenu {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     flex-wrap: wrap;
-    column-gap: 0;
+    column-gap: 196px;
   }
-
-  footer .footerMenu .about {
-    width: 40%;
-
-  }
-
-  footer .footerMenu .company {
-    width: 40%;
-  }
-
-
-  footer .footerMenu .support {
-    width: 40%;
-  }
-
-  footer .footerMenu .address {
-    width: 40%;
-  }
-
 
   /* footer part responsive end here */
 
@@ -895,9 +955,8 @@
 /* for large devices */
 @media (min-width: 992px) and (max-width: 1199.98px) {
 
-  .navbar form .btn {
-    font-size: 15px;
-    padding: 8px 30px;
+  nav .navbar-nav {
+    column-gap: 52px;
   }
 
   /* banner part responsive start here */
@@ -1062,15 +1121,15 @@
 
 
   /* footer part responsive start here */
+
   footer .footerMenu {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     flex-wrap: wrap;
-    column-gap: 0;
-    justify-content: center;
-    align-items: center;
-
+    column-gap: 196px;
   }
+
 
   footer .footerMenu ul h4 {
     margin-bottom: 10px;
@@ -1092,23 +1151,6 @@
   }
 
 
-  footer .footerMenu .about {
-    width: 40%;
-
-  }
-
-  footer .footerMenu .company {
-    width: 40%;
-  }
-
-
-  footer .footerMenu .support {
-    width: 40%;
-  }
-
-  footer .footerMenu .address {
-    width: 40%;
-  }
 
   /* footer part responsive end here */
 
